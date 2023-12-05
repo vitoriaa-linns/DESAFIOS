@@ -1,0 +1,352 @@
+QUESTÃO 01
+      public class HelloWorld {
+      public static void main(String[] args) {
+      System.out.println("Hello World!");
+    }
+}
+
+QUESTÃO 02
+        import java.util.Scanner;
+
+        public class SomaDeInteiros {
+        public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Digite o primeiro número inteiro: ");
+        int numero1 = scanner.nextInt();
+
+        System.out.print("Digite o segundo número inteiro: ");
+        int numero2 = scanner.nextInt();
+
+        int soma = numero1 + numero2;
+
+        System.out.println("A soma de " + numero1 + " e " + numero2 + " é: " + soma);
+
+        scanner.close();
+    }
+}
+
+
+QUESTÃO 03
+        import java.util.Scanner;
+
+        public class OperacoesComTresNumeros {
+        public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Digite o primeiro número inteiro: ");
+        int numero1 = scanner.nextInt();
+
+        System.out.print("Digite o segundo número inteiro: ");
+        int numero2 = scanner.nextInt();
+
+        System.out.print("Digite o terceiro número inteiro: ");
+        int numero3 = scanner.nextInt();
+
+        int soma = numero1 + numero2 + numero3;
+        System.out.println("Soma = " + soma);
+
+        int subtracao = numero1 - numero2 - numero3;
+        System.out.println("Subtração = " + subtracao);
+
+        int multiplicacao = numero1 * numero2 * numero3;
+        System.out.println("Multiplicação = " + multiplicacao);
+
+         scanner.close();
+    }
+}
+
+
+QUESTÃO 04
+      import java.util.Scanner;
+
+       public class OperacoesComDoisNumerosReais {
+       public static void main(String[] args) {
+       Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Digite o primeiro número real: ");
+        double numero1 = scanner.nextDouble();
+
+        System.out.print("Digite o segundo número real: ");
+        double numero2 = scanner.nextDouble();
+
+        double soma = numero1 + numero2;
+        System.out.println("Soma = " + soma);
+
+        double subtracao = numero1 - numero2;
+        System.out.println("Subtração = " + subtracao);
+
+        double multiplicacao = numero1 * numero2;
+        System.out.println("Multiplicação = " + multiplicacao);
+
+        if (numero2 != 0) {
+        double divisao = numero1 / numero2;
+        System.out.println("Divisão = " + divisao);
+        } else {
+         System.out.println("Não é possível dividir por zero.");
+        }
+
+         scanner.close();
+    }
+}
+
+
+QUESTÃO 05
+      import java.util.Scanner;
+
+       public class DivisaoDeDoisNumerosReais {
+       public static void main(String[] args) {
+       Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Digite o numerador (dividendo): ");
+        double numerador = scanner.nextDouble();
+
+        System.out.print("Digite o denominador (divisor): ");
+        double denominador = scanner.nextDouble();
+
+        if (denominador != 0) {
+        double resultado = numerador / denominador;
+        System.out.println("Resultado da divisão = " + resultado);
+        } else {
+        System.out.println("Não é possível dividir por zero.");
+        }
+
+        scanner.close();
+    }
+}
+
+
+QUESTÃO 06
+        import java.util.Scanner;
+
+        public class OperacoesComTresNumerosReais {
+        public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Digite o primeiro número real: ");
+        double numero1 = scanner.nextDouble();
+
+        System.out.print("Digite o segundo número real: ");
+        double numero2 = scanner.nextDouble();
+
+        System.out.print("Digite o terceiro número real: ");
+        double numero3 = scanner.nextDouble();
+
+        double soma = numero1 + numero2 + numero3;
+        System.out.println("Soma = " + soma);
+
+        double subtracao = numero1 - numero2 - numero3;
+        System.out.println("Subtração = " + subtracao);
+
+        double multiplicacao = numero1 * numero2 * numero3;
+        System.out.println("Multiplicação = " + multiplicacao);
+
+        if (numero2 != 0 && numero3 != 0) {
+           
+        double divisao = numero1 / numero2 / numero3;
+        System.out.println("Divisão = " + divisao);
+        } else {
+        System.out.println("Não é possível dividir por zero.");
+        }
+
+        scanner.close();
+    }
+}
+
+QUESTÃO 07    
+        import java.util.Scanner;
+
+        public class AreaComprimentoCircunferencia {
+        public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+     
+        System.out.print("Digite o valor do raio: ");
+        double raio = scanner.nextDouble();
+        
+        double area = Math.PI * Math.pow(raio, 2);
+        System.out.println("Área da circunferência = " + area);
+
+        double comprimento = 2 * Math.PI * raio;
+        System.out.println("Comprimento da circunferência = " + comprimento);
+
+        // Fechando o Scanner para evitar vazamentos de recursos
+        scanner.close();
+    }
+}
+
+QUESTÃO 08
+        import java.util.Scanner;
+
+        public class VolumeEsfera {
+        public static void main(String[] args) {
+       
+        Scanner scanner = new Scanner(System.in);
+
+      
+        System.out.print("Digite o valor do raio: ");
+        double raio = scanner.nextDouble();
+
+        
+        double volume = (4.0 / 3.0) * Math.PI * Math.pow(raio, 3);
+        System.out.println("Volume da esfera = " + volume);
+
+        scanner.close();
+    }
+}
+
+QUESTÃO 09
+        import java.util.Scanner;
+
+        public class VolumeEsfera {
+        public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+       
+        System.out.print("Digite o valor do raio: ");
+        double raio = scanner.nextDouble();
+
+        double volume = (4.0 / 3.0) * Math.PI * Math.pow(raio, 3);
+        System.out.println("Volume da esfera = " + volume);
+
+        scanner.close();
+    }
+}
+
+
+QUESTÃO 10 
+import java.util.Scanner;
+
+public class AreaTrapezio {
+        public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Digite o valor da base maior (B): ");
+        double baseMaior = scanner.nextDouble();
+
+        System.out.print("Digite o valor da base menor (b): ");
+        double baseMenor = scanner.nextDouble();
+
+        System.out.print("Digite o valor da altura (h): ");
+        double altura = scanner.nextDouble();
+
+        double area = ((baseMaior + baseMenor) / 2) * altura;
+        System.out.println("Área do trapézio = " + area);
+
+        scanner.close();
+    }
+}
+
+
+QUESTÃO 11
+          import java.util.Scanner;
+
+       public class ConversaoCelsiusFahrenheit {
+       public static void main(String[] args) {
+       Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Digite a temperatura em graus Celsius: ");
+        double temperaturaCelsius = scanner.nextDouble();
+
+        double temperaturaFahrenheit = (temperaturaCelsius * 9/5) + 32;
+        
+        System.out.println("Temperatura em Fahrenheit: " + temperaturaFahrenheit);
+
+        scanner.close();
+    }
+}
+
+
+QUESTÃO 12
+               import java.util.Scanner;
+
+               public class ConversaoCelsiusFahrenheit {
+               public static void main(String[] args) {
+               Scanner scanner = new Scanner(System.in);
+
+                System.out.print("Digite a temperatura em graus Celsius: ");
+                double temperaturaCelsius = scanner.nextDouble();
+
+                double temperaturaFahrenheit = (temperaturaCelsius * 9/5) + 32;
+        
+                System.out.println("Temperatura em Fahrenheit: " + temperaturaFahrenheit);
+
+                scanner.close();
+    }
+}
+
+
+QUESTÃO 13
+       import java.util.Scanner;
+
+        public class SomaQuadrados {
+        public static void main(String[] args) {
+        
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Digite o valor de A: ");
+        int a = scanner.nextInt();
+
+        System.out.print("Digite o valor de B: ");
+        int b = scanner.nextInt();
+
+        System.out.print("Digite o valor de C: ");
+        int c = scanner.nextInt();
+       
+        int somaQuadrados = (a * a) + (b * b) + (c * c);
+
+        System.out.println("Soma dos quadrados: " + somaQuadrados);
+
+        scanner.close();
+    }
+}
+
+
+QUESTÃO 14
+        import java.util.Scanner;
+
+        public class QuadradoSoma {
+        public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Digite o valor de A: ");
+        int a = scanner.nextInt();
+
+        System.out.print("Digite o valor de B: ");
+        int b = scanner.nextInt();
+
+        System.out.print("Digite o valor de C: ");
+        int c = scanner.nextInt();
+
+        int soma = a + b + c;
+        int quadradoSoma = soma * soma;
+ 
+        System.out.println("Quadrado da soma: " + quadradoSoma);
+
+        scanner.close();
+    }
+}
+
+
+QUESTÃO 15
+       import java.util.Scanner;
+
+       public class ConsumoCarro {
+       public static void main(String[] args) {
+       Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Digite os quilômetros rodados: ");
+        double quilometrosRodados = scanner.nextDouble();
+
+        System.out.print("Digite a quantidade de litros de combustível: ");
+        double litrosCombustivel = scanner.nextDouble();
+
+        double consumo = quilometrosRodados / litrosCombustivel;
+
+        System.out.println("Consumo: " + consumo + " km/l");
+        scanner.close();
+        }
+}
+
+        scanner.close();
+    }
+}
